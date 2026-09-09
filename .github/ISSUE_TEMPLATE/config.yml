@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security or data concern
+    url: https://swapnilailabs.netlify.app/
+    about: Do not disclose secrets, vulnerabilities, or private information in a public issue.

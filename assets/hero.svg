@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">AI Forward Deployed Engineer — Zero to Production</title>
+  <desc id="description">A dark violet and cyan roadmap banner showing the path from discovery to measurable outcomes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070a16"/>
+      <stop offset="0.52" stop-color="#11102d"/>
+      <stop offset="1" stop-color="#071d29"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <radialGradient id="violetGlow">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity=".36"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#94a3b8" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="630" rx="28" fill="url(#grid)"/>
+  <circle cx="235" cy="115" r="340" fill="url(#violetGlow)"/>
+  <circle cx="1030" cy="505" r="390" fill="url(#cyanGlow)"/>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <g transform="translate(72 62)">
+      <rect width="268" height="42" rx="21" fill="#ffffff" fill-opacity=".07" stroke="#a78bfa" stroke-opacity=".55"/>
+      <circle cx="24" cy="21" r="6" fill="#34d399" filter="url(#softGlow)"/>
+      <text x="42" y="27" fill="#d8b4fe" font-size="15" font-weight="650" letter-spacing="1.7">PRODUCTION-FIRST ROADMAP</text>
+    </g>
+
+    <text x="72" y="190" fill="#f8fafc" font-size="67" font-weight="760" letter-spacing="-2.8">AI Forward Deployed</text>
+    <text x="72" y="266" fill="#f8fafc" font-size="67" font-weight="760" letter-spacing="-2.8">Engineer</text>
+    <text x="72" y="323" fill="url(#line)" font-size="30" font-weight="650">Zero to Production</text>
+    <text x="72" y="375" fill="#a7b0c2" font-size="21">Build for customer reality. Evaluate failures. Prove outcomes.</text>
+
+    <path d="M88 487 C245 427 332 536 487 475 S738 412 856 477 S1034 519 1120 451" fill="none" stroke="url(#line)" stroke-width="5" stroke-linecap="round" opacity=".76"/>
+    <g fill="#0b1020" stroke-width="3" filter="url(#softGlow)">
+      <circle cx="88" cy="487" r="10" stroke="#8b5cf6"/>
+      <circle cx="291" cy="474" r="10" stroke="#a78bfa"/>
+      <circle cx="487" cy="475" r="10" stroke="#38bdf8"/>
+      <circle cx="684" cy="444" r="10" stroke="#22d3ee"/>
+      <circle cx="856" cy="477" r="10" stroke="#2dd4bf"/>
+      <circle cx="1120" cy="451" r="10" stroke="#34d399"/>
+    </g>
+
+    <g font-size="14" font-weight="650" letter-spacing=".7" fill="#cbd5e1">
+      <text x="72" y="531">DISCOVER</text>
+      <text x="264" y="518">BUILD</text>
+      <text x="451" y="519">EVALUATE</text>
+      <text x="653" y="488">SECURE</text>
+      <text x="827" y="521">OPERATE</text>
+      <text x="1077" y="495">OUTCOME</text>
+    </g>
+
+    <line x1="72" y1="582" x2="1128" y2="582" stroke="#ffffff" stroke-opacity=".1"/>
+    <text x="72" y="611" fill="#7dd3fc" font-size="15" font-weight="650">SWAPNIL AI LABS</text>
+    <text x="1128" y="611" text-anchor="end" fill="#778198" font-size="14">CURRICULUM · FIELD PROJECTS · PLAYBOOKS · TEMPLATES</text>
+  </g>
+</svg>

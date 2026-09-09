@@ -1,0 +1,28 @@
+name: Correction or broken content
+description: Report an inaccurate statement, broken link, or unclear instruction
+title: "[Correction]: "
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: Never include credentials, personal data, or confidential customer information.
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: File, section, and link to the affected content.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is incorrect or unclear?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Suggested correction and evidence
+      description: Prefer primary or official sources for technical and factual changes.
+    validations:
+      required: true

@@ -1,0 +1,40 @@
+name: Project showcase
+description: Share a sanitized project completed with the playbook
+title: "[Showcase]: "
+labels: [showcase]
+body:
+  - type: markdown
+    attributes:
+      value: Share only public, synthetic, licensed, or explicitly authorized material.
+  - type: input
+    id: link
+    attributes:
+      label: Public project link
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: User problem and outcome
+      description: Distinguish measured outcomes from targets or estimates.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evaluation, operations, and security evidence
+    validations:
+      required: true
+  - type: textarea
+    id: lesson
+    attributes:
+      label: What failed or changed your mind?
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: This contains no secrets, personal data, or confidential customer/employer information.
+          required: true

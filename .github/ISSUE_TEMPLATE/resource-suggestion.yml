@@ -1,0 +1,38 @@
+name: Resource suggestion
+description: Suggest a high-quality resource tied to a learning objective
+title: "[Resource]: "
+labels: [resource]
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource URL
+    validations:
+      required: true
+  - type: dropdown
+    id: module
+    attributes:
+      label: Relevant area
+      options:
+        - Discovery and field execution
+        - Software, data, or cloud
+        - LLMs, RAG, or agents
+        - Evaluation and observability
+        - Security and governance
+        - Product, ROI, or interviews
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: What evidence will a learner produce after using it?
+      description: Explain the learning objective and practical output, not only the topic.
+    validations:
+      required: true
+  - type: checkboxes
+    id: relationship
+    attributes:
+      label: Disclosure
+      options:
+        - label: I disclosed any relationship with the author/provider.
+          required: true
