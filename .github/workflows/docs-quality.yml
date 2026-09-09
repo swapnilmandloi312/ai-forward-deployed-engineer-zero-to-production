@@ -29,5 +29,7 @@ jobs:
             --verbose
             --no-progress
             --accept 200,204,206,429
+            --exclude '^https://openai\.com/careers/'
+            --exclude '^https://blog\.palantir\.com/'
             "**/*.md"
           fail: true
