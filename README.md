@@ -29,6 +29,21 @@ Every module ends with evidence. Every project includes technical, operational, 
 
 The new **[AI System Design Handbook](./ai-system-design-handbook/README.md)** includes **26 plain-English chapters, 60 answered interview questions, seven worked architecture cases, five runnable offline Python labs, and eight working templates**. Follow the [eight-week study plan](./ai-system-design-handbook/ROADMAP.md), explore the [full topic index](./ai-system-design-handbook/INDEX.md), or [run the labs](./ai-system-design-handbook/labs/README.md). The examples use synthetic data, and the original explanations credit the learning guide that inspired the format.
 
+## Practical learning collections
+
+Explore **[six focused collections](./learning-collections/README.md)** that connect FDE preparation, AI architecture, current personal agents, and open-source implementation practice.
+
+| Collection | Practical value |
+|---|---|
+| [FDE Field Drills](./learning-collections/fde-field-drills/README.md) | Three worked cases, answer keys, synthetic data, and an offline ticket-analysis tool |
+| [AI System Design Patterns](./learning-collections/ai-system-design-patterns/README.md) | Eight architecture cards with diagrams, failure cases, and exercises |
+| [Open-source AI Engineering](./learning-collections/open-source-ai-engineering/README.md) | 54 open-source entries across 14 categories, eight separately classified references, and a searchable Python catalog |
+| [Meta Muse](./learning-collections/meta-muse-practical-guide/README.md) | First task, original playbooks, controls, and official product sources |
+| [ChatGPT dots](./learning-collections/chatgpt-dots-practical-guide/README.md) | Setup, responsibilities, source access, five recipes, and outcome review |
+| [Grok Bot](./learning-collections/grok-bot-practical-guide/README.md) | Bot roles, handoffs, routines, four playbooks, and troubleshooting |
+
+All six use plain English and original exercises. The product guides distinguish documented behavior from proposed recipes; the catalog records documentation reviews rather than installation or benchmark claims. Start with the [same-task review worksheet](./learning-collections/SAME-TASK-REVIEW.md) if you want to compare products using consistent inputs.
+
 ## Why this roadmap exists
 
 Current FDE roles ask engineers to embed with customers, scope ambiguous problems, build full-stack systems iteratively, plan production deployments, and return field feedback to product teams. Those expectations appear directly in current [OpenAI FDE role descriptions](https://openai.com/careers/forward-deployed-software-engineer-seattle-seattle/) and in Palantir's description of engineers who build alongside customers for rapid operational impact in its [FDSE field account](https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1).
@@ -123,6 +138,7 @@ Use the reusable [field playbooks](./playbooks/README.md) and [templates](./temp
 ├── projects/         # 6 production-grade portfolio blueprints
 ├── playbooks/        # Discovery-to-handoff field procedures
 ├── templates/        # Copyable briefs, eval plans, ADRs, and runbooks
+├── learning-collections/ # Six focused FDE, design, agent, and open-source collections
 ├── .github/          # Contribution templates and automated checks
 ├── START-HERE.md     # Route selection and Week 0 setup
 ├── ROADMAP.md        # 16-week build sequence
@@ -153,3 +169,4 @@ Code and original written material in this repository are available under the [M
 ---
 
 **Build for the customer's reality. Measure what changes. Leave the system operable.**
+

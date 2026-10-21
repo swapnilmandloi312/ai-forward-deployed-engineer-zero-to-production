@@ -78,6 +78,12 @@ The retrieval lab uses lexical, extractive evidence. The gateway uses simulated 
 
 All case-study volumes, targets, and rates are fictional design assumptions. All bundled records are synthetic. Use cases are exercises, not claims about client deployments, compliance, or measured business outcomes.
 
+## Apply the concepts in focused collections
+
+Continue with [eight system-design pattern cards](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/ai-system-design-patterns), [three worked FDE field drills](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/fde-field-drills), and the [open-source AI Engineering catalog](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/open-source-ai-engineering). Each connects a design choice with an exercise and an observable failure case.
+
+For current personal-agent interfaces, read the independent guides to [Meta Muse](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/meta-muse-practical-guide), [ChatGPT dots](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/chatgpt-dots-practical-guide), and [Grok Bot](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections/grok-bot-practical-guide). They link official documentation and use original proposed tasks; no signed-in execution results are claimed. Browse [all six collections](https://github.com/swapnilmandloi312/ai-forward-deployed-engineer-zero-to-production/tree/main/learning-collections) to choose a learning route.
+
 ## Study, practice, and contribute
 
 - Use [the revision sheet](CHEATSHEET.md) to recall calculations and failure diagnosis.
@@ -95,3 +101,4 @@ Maintained by **[Swapnil Mandloi](https://github.com/swapnilmandloi312)** · **[
 Inspired by the learning-reference format of [Om Bharatiya's AI System Design Guide](https://github.com/ombharatiya/ai-system-design-guide). The explanations, exercises, fictional scenarios, and lab implementations in this handbook were prepared independently for this project. See [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md).
 
 Original repository content is available under the [MIT License](LICENSE). External resources retain their own licenses and terms.
+

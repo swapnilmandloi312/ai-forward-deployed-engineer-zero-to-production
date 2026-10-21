@@ -1,0 +1,12 @@
+tenant,ticket_id,updated_at,category
+north,T100,2026-10-01T09:00:00+00:00,export
+north,T101,2026-10-01T09:10:00+00:00,access
+north,T102,2026-10-01T09:20:00+00:00,export
+north,T100,2026-10-01T10:00:00+00:00,export
+north,T103,2026-10-01T10:10:00+00:00,export
+north,T104,2026-10-01T10:20:00+00:00,access
+north,T105,2026-10-01T10:30:00+00:00,export
+north,T106,2026-10-01T10:40:00+00:00,export
+north,T102,2026-10-01T10:50:00+00:00,export
+north,T107,2026-10-01T11:00:00+00:00,billing
+south,T200,2026-10-01T09:00:00+00:00,access
