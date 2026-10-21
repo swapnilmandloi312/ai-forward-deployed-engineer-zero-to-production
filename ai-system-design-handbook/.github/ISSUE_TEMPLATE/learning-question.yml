@@ -1,0 +1,23 @@
+name: Learning question or explanation improvement
+description: Ask about a concept or suggest a clearer example.
+title: "[Learning] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Chapter or file
+      description: Where did you encounter the concept?
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What is unclear?
+      description: Describe your current understanding and the step that is confusing.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: A small synthetic example
+      description: Do not include private data, credentials, or client records.

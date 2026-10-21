@@ -1,0 +1,8 @@
+[
+  {"id":"returns","version":1,"tenant":"acme","groups":["support"],"active":false,"title":"Retired return policy","section":"1","text":"Unopened items have a 14 day refund window."},
+  {"id":"returns","version":2,"tenant":"acme","groups":["support"],"active":true,"title":"Current return policy","section":"1","text":"Unopened items have a 30 day refund window. Opened electronics have a 14 day return window."},
+  {"id":"shipping","version":1,"tenant":"acme","groups":["support"],"active":true,"title":"Shipping policy","section":"2","text":"Standard shipping takes 5 business days. Express shipping takes 2 business days."},
+  {"id":"staff-pay","version":1,"tenant":"acme","groups":["finance"],"active":true,"title":"Internal payroll schedule","section":"3","text":"Staff payroll is processed on the 25th day of each month."},
+  {"id":"returns","version":1,"tenant":"other","groups":["support"],"active":true,"title":"Other company returns","section":"1","text":"Unopened items have a 90 day refund window."},
+  {"id":"support-hours","version":1,"tenant":"acme","groups":["support"],"active":true,"title":"Support hours","section":"4","text":"Telephone support opens at 09:00 UTC and closes at 17:00 UTC on weekdays."}
+]

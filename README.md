@@ -25,6 +25,10 @@ flowchart LR
 
 Every module ends with evidence. Every project includes technical, operational, and customer-facing deliverables. The goal is not course completion. The goal is a portfolio you can demo, defend, and operate.
 
+## AI System Design Handbook — start with clear explanations
+
+The new **[AI System Design Handbook](./ai-system-design-handbook/README.md)** includes **26 plain-English chapters, 60 answered interview questions, seven worked architecture cases, five runnable offline Python labs, and eight working templates**. Follow the [eight-week study plan](./ai-system-design-handbook/ROADMAP.md), explore the [full topic index](./ai-system-design-handbook/INDEX.md), or [run the labs](./ai-system-design-handbook/labs/README.md). The examples use synthetic data, and the original explanations credit the learning guide that inspired the format.
+
 ## Why this roadmap exists
 
 Current FDE roles ask engineers to embed with customers, scope ambiguous problems, build full-stack systems iteratively, plan production deployments, and return field feedback to product teams. Those expectations appear directly in current [OpenAI FDE role descriptions](https://openai.com/careers/forward-deployed-software-engineer-seattle-seattle/) and in Palantir's description of engineers who build alongside customers for rapid operational impact in its [FDSE field account](https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1).

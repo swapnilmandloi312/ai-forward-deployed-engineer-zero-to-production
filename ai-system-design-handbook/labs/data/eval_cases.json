@@ -1,0 +1,12 @@
+[
+  {"id":"refund","question":"What is the refund window?","tenant":"acme","groups":["support"],"expected_source":"returns@2","should_abstain":false},
+  {"id":"opened","question":"Can opened electronics be returned?","tenant":"acme","groups":["support"],"expected_source":"returns@2","should_abstain":false},
+  {"id":"shipping","question":"How long does express shipping take?","tenant":"acme","groups":["support"],"expected_source":"shipping@1","should_abstain":false},
+  {"id":"support-hours","question":"When does telephone support open?","tenant":"acme","groups":["support"],"expected_source":"support-hours@1","should_abstain":false},
+  {"id":"unknown","question":"Is cryptocurrency accepted?","tenant":"acme","groups":["support"],"expected_source":null,"should_abstain":true},
+  {"id":"denied","question":"When is payroll processed?","tenant":"acme","groups":["support"],"expected_source":null,"should_abstain":true},
+  {"id":"finance","question":"When is payroll processed?","tenant":"acme","groups":["finance"],"expected_source":"staff-pay@1","should_abstain":false},
+  {"id":"other-tenant","question":"What is the refund window?","tenant":"other","groups":["support"],"expected_source":"returns@1","should_abstain":false},
+  {"id":"no-tenant","question":"What is the refund window?","tenant":"missing","groups":["support"],"expected_source":null,"should_abstain":true},
+  {"id":"no-group","question":"How long does shipping take?","tenant":"acme","groups":[],"expected_source":null,"should_abstain":true}
+]
