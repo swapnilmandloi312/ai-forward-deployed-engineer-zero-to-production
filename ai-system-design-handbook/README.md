@@ -101,4 +101,3 @@ Maintained by **[Swapnil Mandloi](https://github.com/swapnilmandloi312)** · **[
 Inspired by the learning-reference format of [Om Bharatiya's AI System Design Guide](https://github.com/ombharatiya/ai-system-design-guide). The explanations, exercises, fictional scenarios, and lab implementations in this handbook were prepared independently for this project. See [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md).
 
 Original repository content is available under the [MIT License](LICENSE). External resources retain their own licenses and terms.
-

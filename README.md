@@ -169,4 +169,3 @@ Code and original written material in this repository are available under the [M
 ---
 
 **Build for the customer's reality. Measure what changes. Leave the system operable.**
-
