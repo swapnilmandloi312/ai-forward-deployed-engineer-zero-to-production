@@ -24,7 +24,7 @@ Attention forms weighted combinations of value representations using relationshi
 
 No. Lower sampling randomness does not verify facts, permissions, or calculations. Backend changes, model versions, implementation details, and task ambiguity can also affect reproducibility. Use versioned configuration, deterministic validators, and repeated workload-specific evaluation rather than treating a decoding setting as a correctness mechanism.
 
-### 6. Explain prefill, decode, and KV cache.
+### 6. Explain prefill, decode, and KV cache
 
 Prefill processes the input context. Decode generates subsequent tokens. The KV cache stores intermediate attention information used while generating, reducing repeated computation. Longer active sequences and more concurrent requests consume more cache memory. This is why a model fitting in memory at startup does not prove it can handle the target traffic.
 
@@ -196,7 +196,7 @@ An incomplete key can mix tenants, permissions, versions, locales, or prompts. A
 
 Stage timings, request/job ID, safe error categories, prompt/model/index versions, token usage, and permitted source/artifact references. Include enough to diagnose without defaulting to full sensitive content. Traces complement metrics and logs; they are not the authoritative financial or approval ledger. See [Chapter 21](../chapters/21-observability.md).
 
-### 47. Calculate a simple daily token bill.
+### 47. Calculate a simple daily token bill
 
 For 10,000 requests with 2,000 input and 400 output tokens at fictional rates $2 and $8 per million respectively, each request costs $0.0072 and a day costs $72. Add retries, hosting, retrieval, storage, tools, and review separately. Current provider-specific billing rules must be verified before budgeting.
 
